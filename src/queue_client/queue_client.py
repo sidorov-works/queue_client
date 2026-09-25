@@ -6,7 +6,7 @@ import json
 import asyncio
 import redis.exceptions
 from redis.asyncio import Redis, ConnectionPool
-from custom_json_encoder import dumps
+from .custom_json_encoder import dumps
 
 import logging
 logger = logging.getLogger(__name__)
