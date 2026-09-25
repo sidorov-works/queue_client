@@ -381,4 +381,4 @@ def get_queue_client(
         maxlen: Optional[int] = None
         ) -> BaseQueueClient:
     """Фабрика для создания клиента очереди"""
-    return RedisQueueClient(name, prefix, connection_pool=connection_pool, maxlen=maxlen)
+    return RedisQueueClient(name, prefix=prefix, connection_pool=connection_pool, maxlen=maxlen)
