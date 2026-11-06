@@ -47,3 +47,6 @@ htmlcov/
 .DS_Store
 
 *:Zone.Identifier
+
+generate_docs.py
+project_structure.md
