@@ -1,13 +1,13 @@
 [project]
 name = "queue-client"
-version = "0.1.5"
+version = "0.1.6"
 description = "Custom client for Redis queues"
 authors = [{name = "Oleg Sidorov", email = "sidorov.works@yandex.ru"}]
 license = {text = "MIT"}
 readme = "readme.md"
 requires-python = ">=3.9"
 dependencies = [
-    "redis>=8.2.0"
+    "redis>=8.1.0"
 ]
 
 [project.optional-dependencies]
